@@ -1,0 +1,136 @@
+#app {
+  height: 100vh;
+}
+/* contenedor superior título y botón*/
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 12%;
+  align-items: center;
+  background-color: black;
+}
+.item {
+  margin: 12px;
+}
+.item1 {
+  color: aquamarine;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+/* contenedor de la tabla*/
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76%;
+  background-color: black;
+}
+/* contenedor inferior*/
+.f {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.boton {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: aquamarine;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botonYellow {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: yellow;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botonMorado {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: blueviolet;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botonWhite {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botonOrange {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.botonlimpiar {
+  background-color: black;
+  padding: 10px;
+  border: solid;
+  color: #cb3234;
+  text-align: center;
+  font-size: 20px;
+  margin: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.botonlimpiar:hover {
+  color: red;
+  font-size: 25px;
+  top: 4px;
+}
+.boton:hover {
+  color: #ff7d00;
+  font-size: 25px;
+  top: 4px;
+}
+.boton:hover {
+  font-size: 25px;
+  top: 4px;
+}
+.botonYellow:hover {
+  font-size: 25px;
+  top: 4px;
+}
+.botonWhite:hover {
+  font-size: 25px;
+  top: 4px;
+}
+.botonOrange:hover {
+  font-size: 25px;
+  top: 4px;
+}
+
+.botonMorado:hover {
+  font-size: 25px;
+  top: 4px;
+}
