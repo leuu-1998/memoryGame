@@ -73,7 +73,6 @@ function App() {
           Limpiar tablero
         </button>
       </div>
-      1
     </div>
   );
 }

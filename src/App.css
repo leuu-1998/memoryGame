@@ -134,3 +134,48 @@
   font-size: 25px;
   top: 4px;
 }
+
+/*tamaño adaptativo*/
+@media (max-height: 600px) {
+  .boton {
+    font-size: 15px;
+  }
+  .botonMorado {
+    font-size: 15px;
+  }
+  .botonYellow {
+    font-size: 15px;
+  }
+  .botonOrange {
+    font-size: 15px;
+  }
+  .botonWhite {
+    font-size: 15px;
+  }
+  .botonlimpiar {
+    font-size: 15px;
+  }
+  .item1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .boton {
+    font-size: 15px;
+  }
+  .botonMorado {
+    font-size: 15px;
+  }
+  .botonYellow {
+    font-size: 15px;
+  }
+  .botonOrange {
+    font-size: 15px;
+  }
+  .botonWhite {
+    font-size: 15px;
+  }
+  .botonlimpiar {
+    font-size: 15px;
+  }
+}
