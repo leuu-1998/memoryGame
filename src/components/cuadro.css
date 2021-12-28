@@ -1,32 +1,7 @@
 #caja {
-  height: 30px;
-  width: 30px;
+  height: calc(3.4vh);
+  width: calc(2vw);
   background-color: blueviolet;
   border-color: black;
   border-style: solid;
-}
-
-@media (max-width: 1024px) {
-  #caja {
-    height: 25px;
-    width: 25px;
-  }
-}
-@media (max-height: 700px) {
-  #caja {
-    height: 25px;
-    width: 25px;
-  }
-}
-@media (max-height: 600px) {
-  #caja {
-    height: 20px;
-    width: 20px;
-  }
-}
-@media (max-width: 800px) {
-  #caja {
-    height: 20px;
-    width: 20px;
-  }
 }

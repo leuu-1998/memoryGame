@@ -2,8 +2,8 @@ import "./App.css";
 import { useState } from "react";
 import Tabla from "./components/Tabla";
 function App() {
-  //dimensión por defecto == 3
-  const [Gdim, setGdim] = useState(3);
+  //dimensión por defecto == 6
+  const [Gdim, setGdim] = useState(6);
   const [color, setColor] = useState("blueviolet");
   const [reset, setReset] = useState(false);
 
